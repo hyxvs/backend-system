@@ -1,0 +1,1290 @@
+2026-01-28 10:07:16 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:16:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-28 10:07:16 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:16:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-28 10:19:28 [ERROR]: 获取图书列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY b.created_at DESC LIMIT 10 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY b.created_at DESC LIMIT 10 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:42:32
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:30 [ERROR]: 获取读者列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 10 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 10 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:31 [ERROR]: 获取图书列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY b.created_at DESC LIMIT 10 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY b.created_at DESC LIMIT 10 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:42:32
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:33 [ERROR]: 获取读者列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 1000 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 1000 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:33 [ERROR]: 获取图书列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 AND status = '1' ORDER BY b.created_at DESC LIMIT 1000 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 AND status = '1' ORDER BY b.created_at DESC LIMIT 1000 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:42:32
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:36 [ERROR]: 获取读者列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 1000 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 1000 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:36 [ERROR]: 获取图书列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 AND status = '1' ORDER BY b.created_at DESC LIMIT 1000 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 AND status = '1' ORDER BY b.created_at DESC LIMIT 1000 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:42:32
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:37 [ERROR]: 获取读者列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 10 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 10 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:19:37 [ERROR]: 获取图书列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY b.created_at DESC LIMIT 10 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY b.created_at DESC LIMIT 10 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:42:32
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:21:11 [ERROR]: 获取读者列表失败: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 10 OFFSET 0' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1=1 ORDER BY created_at DESC LIMIT 10 OFFSET 0' at line 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-28 10:52:59 [ERROR]: 更新图书失败: Incorrect date value: '2026-01-27T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2026-01-27T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:175:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 10:53:01 [ERROR]: 更新图书失败: Incorrect date value: '2026-01-27T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2026-01-27T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:175:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 10:53:08 [ERROR]: 更新图书失败: Incorrect date value: '2026-01-27T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2026-01-27T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.0\backend\src\routes\books.js:175:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:16:19 [ERROR]: 删除图书失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:212:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:18:16 [ERROR]: 删除读者失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:193:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:18:23 [ERROR]: 删除读者失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:193:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:19:41 [ERROR]: 删除读者失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:193:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:29:19 [ERROR]: 删除读者失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:193:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:32:27 [ERROR]: 删除读者失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_reader` FOREIGN KEY (`reader_id`) REFERENCES `readers` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:193:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:35:16 [ERROR]: 删除图书失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:212:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 13:35:21 [ERROR]: 删除图书失败: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot delete or update a parent row: a foreign key constraint fails (`library_system`.`appointments`, CONSTRAINT `fk_appointment_book` FOREIGN KEY (`book_id`) REFERENCES `books` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:212:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-28 14:19:16 [ERROR]: 为所有表添加数据失败: Duplicate entry 'librarian3' for key 'users.username'
+Error: Duplicate entry 'librarian3' for key 'users.username'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:43:16
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+2026-01-28 14:22:38 [ERROR]: 为所有表添加数据失败: Duplicate entry 'librarian3' for key 'users.username'
+Error: Duplicate entry 'librarian3' for key 'users.username'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:43:16
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+2026-01-28 14:26:12 [ERROR]: 为所有表添加数据失败: Duplicate entry 'librarian3' for key 'users.username'
+Error: Duplicate entry 'librarian3' for key 'users.username'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:43:16
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+2026-01-28 14:31:08 [ERROR]: 为所有表添加数据失败: Duplicate entry 'librarian3' for key 'users.username'
+Error: Duplicate entry 'librarian3' for key 'users.username'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:43:16
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+2026-01-28 14:58:08 [ERROR]: 为所有表添加数据失败: Unknown column 'user_id' in 'field list'
+Error: Unknown column 'user_id' in 'field list'
+    at PromisePoolConnection.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\connection.js:29:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:254:26
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 10:44:01 [ERROR]: 获取读者列表失败: Unknown column 'ri.phone' in 'field list'
+Error: Unknown column 'ri.phone' in 'field list'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:44:22 [ERROR]: 获取读者列表失败: Unknown column 'ri.phone' in 'field list'
+Error: Unknown column 'ri.phone' in 'field list'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:48:51 [ERROR]: 获取读者列表失败: Unknown column 'ri.phone' in 'field list'
+Error: Unknown column 'ri.phone' in 'field list'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:37:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:54:14 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:51:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:54:21 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:51:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:54:29 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:51:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:18:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:57:20 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:51:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 10:57:22 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:51:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 11:00:10 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:42:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 11:00:18 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:42:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 11:02:47 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:42:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 11:02:52 [ERROR]: 获取读者列表失败: Incorrect arguments to mysqld_stmt_execute
+Error: Incorrect arguments to mysqld_stmt_execute
+    at PromisePool.execute (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:54:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\readers.js:42:34
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 12:00:29 [ERROR]: 获取读者借阅排行失败: Unknown column 'ri.phone' in 'field list'
+Error: Unknown column 'ri.phone' in 'field list'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\statistics.js:122:39
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 12:00:37 [ERROR]: 获取读者借阅排行失败: Unknown column 'ri.phone' in 'field list'
+Error: Unknown column 'ri.phone' in 'field list'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\statistics.js:122:39
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 12:01:55 [ERROR]: 获取读者借阅排行失败: Unknown column 'ri.phone' in 'field list'
+Error: Unknown column 'ri.phone' in 'field list'
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\statistics.js:122:39
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:19:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+2026-01-29 12:44:41 [ERROR]: 发生错误: request entity too large
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-29 12:46:06 [ERROR]: 发生错误: request entity too large
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-29 12:46:07 [ERROR]: 发生错误: request entity too large
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-29 12:46:17 [ERROR]: 发生错误: request entity too large
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-29 12:46:19 [ERROR]: 发生错误: request entity too large
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-29 12:46:24 [ERROR]: 发生错误: request entity too large
+PayloadTooLargeError: request entity too large
+    at readStream (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:163:17)
+    at getRawBody (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\raw-body\index.js:116:12)
+    at read (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\read.js:79:3)
+    at jsonParser (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\body-parser\lib\types\json.js:138:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at cors (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-29 12:48:00 [ERROR]: 更新图书失败: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:48:11 [ERROR]: 更新图书失败: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:48:38 [ERROR]: 更新图书失败: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:49:49 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:08 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:09 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:09 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:10 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:10 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:10 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:51:41 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:55:50 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:55:51 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:56:09 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 12:56:29 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:01:26 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:01:44 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:18 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:20 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:20 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:21 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:21 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:21 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:58 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:04:58 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:05:10 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:05:11 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 13:05:14 [ERROR]: 更新图书失败: Data too long for column 'cover' at row 1
+Error: Data too long for column 'cover' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-29 14:51:23 [ERROR]: JWT验证失败: jwt malformed
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+2026-01-29 15:56:56 [ERROR]: JWT验证失败: jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-29 19:55:56 [ERROR]: JWT验证失败: jwt malformed
+JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:70:17)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+2026-01-29 21:16:20 [ERROR]: JWT验证失败: jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-29 21:16:20 [ERROR]: JWT验证失败: jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-29 21:16:20 [ERROR]: JWT验证失败: jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-29 21:16:20 [ERROR]: JWT验证失败: jwt expired
+TokenExpiredError: jwt expired
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-29 22:04:27 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-29 22:09:18 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:17:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 13:40:41 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:19:48 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:20:09 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:30:03 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-31 14:30:09 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:376:14)
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+2026-01-31 14:33:44 [ERROR]: 更新图书失败: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+Error: Incorrect date value: '2018-12-31T16:00:00.000Z' for column 'publish_date' at row 1
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:607:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-31 14:45:15 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:45:15 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:45:18 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:45:18 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 14:45:48 [ERROR]: JWT验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at authMiddleware (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\auth.js:25:25)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 15:03:27 [ERROR]: 登出失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\auth.js:247:25
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 15:05:20 [ERROR]: Token验证失败: invalid signature
+JsonWebTokenError: invalid signature
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:171:19
+    at getSecret (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\auth.js:242:29
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at router.handle (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+2026-01-31 18:30:18 [ERROR]: 更新图书失败: Cannot add or update a child row: a foreign key constraint fails (`library_system`.`books`, CONSTRAINT `fk_book_category` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+Error: Cannot add or update a child row: a foreign key constraint fails (`library_system`.`books`, CONSTRAINT `fk_book_category` FOREIGN KEY (`category_id`) REFERENCES `categories` (`id`) ON DELETE RESTRICT ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\routes\books.js:614:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-31 20:05:27 [ERROR]: 发生错误: Unexpected field
+MulterError: Unexpected field
+    at wrappedFileFilter (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\multer\index.js:40:19)
+    at Multipart.<anonymous> (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\multer\lib\make-middleware.js:132:7)
+    at Multipart.emit (node:events:508:28)
+    at HeaderParser.cb (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\busboy\lib\types\multipart.js:358:14)
+    at HeaderParser.push (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\busboy\lib\types\multipart.js:162:20)
+    at SBMH.ssCb [as _cb] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\busboy\lib\types\multipart.js:394:37)
+    at feed (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\streamsearch\lib\sbmh.js:248:10)
+    at SBMH.push (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\streamsearch\lib\sbmh.js:104:16)
+    at Multipart._write (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\busboy\lib\types\multipart.js:567:19)
+    at writeOrBuffer (node:internal/streams/writable:570:12)
+    at _write (node:internal/streams/writable:499:10)
+    at Writable.write (node:internal/streams/writable:508:10)
+    at IncomingMessage.ondata (node:internal/streams/readable:1008:24)
+    at IncomingMessage.emit (node:events:508:28)
+    at Readable.read (node:internal/streams/readable:780:10)
+    at flow (node:internal/streams/readable:1286:53)
+2026-01-31 21:44:28 [ERROR]: 记录操作日志失败: Cannot add or update a child row: a foreign key constraint fails (`library_system`.`operation_logs`, CONSTRAINT `fk_log_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+Error: Cannot add or update a child row: a foreign key constraint fails (`library_system`.`operation_logs`, CONSTRAINT `fk_log_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+    at PromisePool.query (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at res.json (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\log.js:28:12)
+    at logout (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\controllers\readerController.js:1457:16)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:284:15
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
+    at readerAuth (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\src\middleware\readerAuth.js:44:5)
+    at Layer.handle [as handle_request] (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:286:9
+    at router.process_params (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\hyx20\Desktop\Library Admin System1.1.0\backend\node_modules\express\lib\router\index.js:280:10)
